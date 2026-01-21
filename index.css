@@ -20,6 +20,7 @@ body{
     padding: 20px;
     box-shadow: 0px 0px 20px 10px black;
     background-color: rgba(0, 0, 0, 0.301);
+     backdrop-filter: blur(3px);
 }
 input{
     width: 320px;
@@ -47,10 +48,10 @@ button{
     margin: 10px;
     font-size: 22px;
     border: none;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.205);
     color: rgb(0, 0, 0);
     border-radius: 50px;
-    box-shadow: 0px 0px 15px black;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.993);
 }
 .operator{
     color: white;
